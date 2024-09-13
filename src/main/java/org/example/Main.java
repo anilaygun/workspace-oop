@@ -11,12 +11,14 @@ public class Main {
 
         // System.out.println(product1.name);
 
+
         Product product2 = new Product();
         product2.setName("Y Kahve Makinesi");
         product2.setUnitPrice(12850);
         product2.setDiscount(2000);
         product2.setUnitsInStock(50);
         product2.setImageUrl("");
+
 
         Product product3 = new Product();
         product3.setName("Z Kahve Makinesi");
@@ -32,7 +34,7 @@ public class Main {
 
         IndividualCustomer individualCustomer = new IndividualCustomer();
         individualCustomer.setId(1);
-        individualCustomer.setCustomerNumber("10");
+        individualCustomer.setCustomerNumber("15");
         individualCustomer.setPhoneNumber("5555555555");
         individualCustomer.setFirstName("Anıl");
         individualCustomer.setLastName("Aygün");
